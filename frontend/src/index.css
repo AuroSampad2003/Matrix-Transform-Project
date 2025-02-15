@@ -16,6 +16,7 @@ body {
     display: grid;
     gap: 2px;
     margin: 20px auto;
+    
   }
   
   .matrix div {
