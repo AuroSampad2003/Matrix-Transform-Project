@@ -3,18 +3,24 @@
   "version": "1.0.0",
   "description": "React App for Matrix Transformation",
   "main": "index.js",
+  "homepage": "https://your-username.github.io/your-repository-name",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "install": "^0.13.0"
+  },
   "license": "MIT",
   "keywords": [],
   "author": "",
@@ -31,4 +37,3 @@
     ]
   }
 }
-
