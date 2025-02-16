@@ -1,11 +1,13 @@
-import React from "react";
-import MatrixTransform from "./components/MatrixTransform";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <MatrixTransform />
-    </div>
+    <Router basename="/Matrix-Transform-Project">
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
