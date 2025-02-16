@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React App for Matrix Transformation",
   "main": "index.js",
-
+  "homepage": "https://aurosampad2003.github.io/Matrix-Transform-Project/",
 
   "scripts": {
     "start": "react-scripts start",
