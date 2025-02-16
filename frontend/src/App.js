@@ -1,11 +1,14 @@
 import React from "react";
 import MatrixTransform from "./components/MatrixTransform";
+import { HashRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <MatrixTransform />
-    </div>
+    <Router>
+      <div className="App">
+        <MatrixTransform />
+      </div>
+    </Router>
   );
 }
 
